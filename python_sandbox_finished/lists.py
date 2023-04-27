@@ -13,25 +13,23 @@ print(fruits[1])
 # Get the last value
 print(fruits[-1])
 
-
-
 # Get length
 print(len(fruits))
 
 # Append to list
 fruits.append('Mangos')
 
-# Remove from list
-fruits.remove('Grapes')
-
 # Insert into position
 fruits.insert(2, 'Strawberries')
 
-# Change value
-fruits[0] = 'Blueberries'
+# Remove from list
+fruits.remove('Grapes')
 
 # Remove with pop
 fruits.pop(2)
+
+# Change value
+fruits[0] = 'Blueberries'
 
 # Reverse list
 fruits.reverse()
