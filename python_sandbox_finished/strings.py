@@ -35,6 +35,10 @@ print(len(s))
 
 # Replace
 print(s.replace('world', 'everyone'))
+eg:- only replacing the last 'I' with 'we'
+      intro = f"what's up, I is {firstName} {lastName}. I am a {age} years old {sex} and it is {is_cute} that a lot of u are here as think I"
+
+      print(intro.replace('I', 'we', -1).replace('we', 'I', 2))
 
 # Count
 sub = 'h'
