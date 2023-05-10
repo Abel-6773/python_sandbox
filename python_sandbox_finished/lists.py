@@ -16,13 +16,13 @@ print(fruits[-1])
 # Get length
 print(len(fruits))
 
-# Append to list
+# Append to list (add to last)
 fruits.append('Mangos')
 
 # Insert into position
 fruits.insert(2, 'Strawberries')
 
-# Remove from list
+# Remove a specific target from list
 fruits.remove('Grapes')
 
 # Remove with pop
