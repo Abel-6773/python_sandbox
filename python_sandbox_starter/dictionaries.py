@@ -8,7 +8,7 @@
 # Get dict keys
 # Get dict items
 # Copy dict
-# Remove item
+# Remove item (using del, pop methods)
 # Clear
 # Get length
 # List of dict
