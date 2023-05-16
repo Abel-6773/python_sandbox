@@ -3,7 +3,7 @@
 # Create dict
 # Use constructor
 # person2 = dict(first_name='Sara', last_name='Williams')
-# Get value
+# Get value (using brackets and get function)
 # Add key/value
 # Get dict keys
 # Get dict items
