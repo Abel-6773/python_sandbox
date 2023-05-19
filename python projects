@@ -1,0 +1,21 @@
+# alarm for 8am which tells to wake up every 10 mins till 8:20, time needs to be preset and needs to be in str format so colon won't mess up code 
+time = "8:00"
+time2 = "8:10"
+time3 = "8:20"
+if time == "8:00":
+    print('wake up!')
+    feedback = input()
+    if feedback == 'off':
+        print()
+    elif feedback != 'off' and time2== "8:10":
+        print(f"It's {time2} wakeup please!")
+        feedback2= input()
+        if feedback2== 'off':
+            print()
+        elif feedback2!= 'off' and time3== "8:20":
+            print(f"It's {time3}, last warning wake up")
+        else:
+            print()
+    else:
+        print()
+        
