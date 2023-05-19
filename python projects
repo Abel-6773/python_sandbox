@@ -1,4 +1,5 @@
 # alarm for 8am which tells to wake up every 10 mins till 8:20, time needs to be preset and needs to be in str format so colon won't mess up code 
+
 time = "8:00"
 time2 = "8:10"
 time3 = "8:20"
